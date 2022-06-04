@@ -36,7 +36,7 @@ The application supports:
 - printing the currently displayed ECG trace to a PNG or PDF file
 - recording the ECG and heart rate data to *CSV* files.
 
-![Sample ECG](./images/ecg_sample.png "ECG Sample")
+![Sample ECG](./images/ecg-sample.png)
 
 
 ## Ant+ and BLE
