@@ -7,11 +7,15 @@ Currently there are two applications available in *Alpha* release:
 - Fitness\_Dashboard
 - Fitness\_ECG
 
+Currently *Fitness* applications are only available for *Windows 10 and 11*.
+
+*MacOS* availibilty is pending.
+
 ## ![Sample ECG](./icons/graph2.svg) Fitness Dashboard 
 
 *Fitness\_Dashboard* captures *Ant+* and *BLE* dat from power meters, heart rate monitors, fitness trainers and various other devices. 
 
-This is displayed in two ways. First a large set of graphs showing various statistics. Second a large display of the current values for the 
+The data is displayed in two ways. First is a set of graphs showing various statistics. Second a large display of the current values for the 
 statistics from each device being monitored. The intent is to provide the equivalent of of a cycling computer with a much larger and easier
 to read interface suitable for using when training indoors.
 
@@ -24,6 +28,8 @@ Currently supported:
     - Muscle Oxygen
     - Bicycle Speed and Cadence
 
+Example:
+![Sample Dashboard](./images/dashboard1.png)
 
 ## ![Sample ECG](./icons/ecg-lines.svg) Fitness ECG
 
@@ -37,7 +43,7 @@ The application supports:
 - recording the ECG and heart rate data to *CSV* files.
 
 Example:
-![Sample ECG](./images/ecg-sample.png)
+![Sample ECG](./images/ecg1.png)
 
 
 ## Ant+ and BLE
