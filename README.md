@@ -62,7 +62,7 @@ more limited in the number of connections they support and will usually require 
 
 Work in progress:
 
-- [HRV Readiness Implementation](./doc/README-Readiness.md)
+- [HRV Readiness Implementation](./docs/README-Readiness.md)
 
 
 
