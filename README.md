@@ -7,7 +7,7 @@ Currently there are two applications available in *Alpha* release:
 - Fitness\_Dashboard
 - Fitness\_ECG
 
-## Fitness\_Dashboard
+## ![Sample ECG](./icons/graph2.svg) Fitness Dashboard 
 
 *Fitness\_Dashboard* captures *Ant+* and *BLE* dat from power meters, heart rate monitors, fitness trainers and various other devices. 
 
@@ -25,7 +25,7 @@ Currently supported:
     - Bicycle Speed and Cadence
 
 
-## Fitness\_ECG
+## ![Sample ECG](./icons/ecg-lines.svg) Fitness ECG
 
 *Fitness\_ECG* captures heart rate and *ECG* data from a *Polar H10* heart rate monitor. This is displayed as an *ECG* trace and 
 heart rate graph over time.
