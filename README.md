@@ -7,7 +7,7 @@ Currently there are two applications available in *Alpha* release:
 - Fitness\_Dashboard
 - Fitness\_ECG
 
-## Fitness\_Dashboard
+## Fitness\_Dashboard ![Sample ECG](./icons/graph2.svg)
 
 *Fitness\_Dashboard* captures *Ant+* and *BLE* dat from power meters, heart rate monitors, fitness trainers and various other devices. 
 
