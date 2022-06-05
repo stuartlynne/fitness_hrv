@@ -37,8 +37,8 @@ available.
 This approach to *readiness* allows an athlete to use the warm up period of his workout to make decisions about how to continue the workout. 
 A high readiness score may allow for a harder then planned workout. A low score can suggest scaling back the planned workout. 
 
-The advantage of this approach is that the if the fitness app is being used the readiness score is automatically calculated. There are no
-additional steps required. 
+The advantage of this approach is that the if the fitness app is being used to guide the workout, then the readiness score is automatically calculated. 
+There are no additional steps required. 
 
 The trade off is being able to make an earlier decision based on a separate measurement or getting information on fitness
 from data collected automatically during the warmup.
