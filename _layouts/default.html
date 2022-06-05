@@ -28,7 +28,7 @@
         
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <p>{{ site.github.latest_release | default: site.github.latest_release }}</p>
+        <p>{{ site.github.latest_release[0].browser_download_url | default: site.github.latest_release[0].browser_download_url }}</p>
         
 
         {% if site.show_downloads %}
