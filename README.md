@@ -58,6 +58,11 @@ These provide device specific data via *Ant+* and *BLE* using various standards.
 and it is easy to capture the data without interference with other programs that are also using them. *BLE* devices are
 more limited in the number of connections they support and will usually require pairing to work correctly.
 
+## Other Documentation
+
+Work in progress:
+
+- [HRV Readiness Implementation](./doc/README-readiness.md)
 
 
 
