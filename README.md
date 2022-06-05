@@ -68,10 +68,7 @@ Work in progress:
 ## Posts
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="/github-pages-with-jekyll{{ post.url }}">{{ post.title }}</a>
-      <a href="/_posts/{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <li> <a href="{{ post.url }}">{{ post.title }}</a> </li>
   {% endfor %}
 </ul>
 
