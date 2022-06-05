@@ -1,7 +1,7 @@
 # AIEndurance HRV Readiness
 ## Overview 
 
-*aiendurance* has defined and promoted the concept of *Readiness* and *Durability* based on *DFA A1*.
+[*AIEndurance*](https://aiendurance.com/) has defined and promoted the concept of *Readiness* and *Durability* based on *DFA A1*.
 
 HRV *Readiness* is calculated during the first thirty minutes of a workout (during the warm up period) and compares
 your data against a baseline of data from previous workouts. 
@@ -45,17 +45,16 @@ from data collected automatically during the warmup.
 
 
 ## References
-- [New readiness to train and durability HRV metrics](https://aiendurance.com/blog/readiness-to-train-and-durability-hrv-metrics)
-- [To train hard or not, that's the question ](http://www.muscleoxygentraining.com/2021/08/to-train-hard-or-not-thats-question.html)
-- [Fractal correlation properties of heart rate variability as a biomarker of endurance exercise fatigue in ultramarathon runners]
-(https://physoc.onlinelibrary.wiley.com/doi/full/10.14814/phy2.14956)
+- [AIEndurance Blog: New readiness to train and durability HRV metrics](https://aiendurance.com/blog/readiness-to-train-and-durability-hrv-metrics)
+- [Muscle Oxygen Blog: To train hard or not, that's the question ](http://www.muscleoxygentraining.com/2021/08/to-train-hard-or-not-thats-question.html)
+- [Fractal correlation properties of heart rate variability as a biomarker of endurance exercise fatigue in ultramarathon runners](https://physoc.onlinelibrary.wiley.com/doi/full/10.14814/phy2.14956)
 
 
 ## a1 and P data
 
 *a1* is derived using the *DFA Alpha1* algorithm from the recorded *RR* data from a heart rate monitor.
 
-*P* is the average derived from the *power* data recorded from a power meter or fitness trainer.
+*P* is the average power for the *a1* period, derived from the *power* data recorded from a power meter or fitness trainer.
 
 *a1* and *P* are calculated every two seconds starting at two minutes into the workout and saved.
 
@@ -63,7 +62,7 @@ Starting at two minutes into the workout, every two seconds:
 - *a1* data for a specific point in time is derived from the previous two minutes of HRV RR data 
 - *P* data is the average of the power recorded for the previous two minutes of power data
 
-N.b.  *a1* is displayed and graphed as a separate statistic in *fitness_dashboard*.
+N.b.  *a1* wil be displayed and graphed as a separate statistic in *fitness_dashboard*.
 
 
 ## Pa Function Definition
@@ -100,7 +99,7 @@ The *Ra* data calculated for every workout and saved.
         return ra
 ```
 
-*Ra* will be calculated as iPa is being calculated and displayed in the HRM stat plot.
+*Ra* will be calculated as iPa is being calculated and will be displayed in the HRM stat plot.
 
 ### Implementation Note
 
@@ -135,7 +134,7 @@ Using *Pa*, durability is defined as:
 
 The more negative Da for an activity, the less durability for that particular workout type and duration.
 
-*Da* will be calculated starting at thirty minutes and displayed in the HRM stat plot. 
+*Da* will be calculated starting at thirty minutes and will be displayed in the HRM stat plot. 
 
 ### Typical values for durability
 
