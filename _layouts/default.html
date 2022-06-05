@@ -29,7 +29,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
   
         
-
+        {% include downloads.html %}
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
