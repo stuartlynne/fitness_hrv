@@ -1,8 +1,8 @@
 ---
 layout: post
 title: AIEndurance HRV Readiness
+author: Stuart Lynne
 ---
-# AIEndurance HRV Readiness
 ## Overview 
 
 [*AIEndurance*](https://aiendurance.com/) has defined and promoted the concept of *Readiness* and *Durability* based on *DFA A1*.
@@ -12,7 +12,7 @@ your data against a baseline of data from previous workouts.
 
 From *AIEndurance*:
 ```
-If you put out less power/pace for the saem a1 on a given day, you are not performing 
+If you put out less power/pace for the same a1 on a given day, you are not performing 
 well compared to your current baseline.
 
 Conversely, if your power/pace for the same a1 is higher than your current baseline, 
