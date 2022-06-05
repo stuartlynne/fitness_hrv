@@ -31,6 +31,9 @@ Currently supported:
 Example:
 ![Sample Dashboard](./images/dashboard1.png)
 
+### Download
+[Fitness\_Dashboard v0.13](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.13-alpha/Fitness_Dashboard_0.13_setup.exe)
+
 ## ![Sample ECG](./icons/ecg-lines.svg) Fitness ECG
 
 *Fitness\_ECG* captures heart rate and *ECG* data from a *Polar H10* heart rate monitor. This is displayed as an *ECG* trace and 
@@ -45,6 +48,8 @@ The application supports:
 Example:
 ![Sample ECG](./images/ecg1.png)
 
+### Download
+[Fitness\_ECG v0.13](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.13-alpha/Fitness_ECG_0.13_setup.exe)
 
 ## Ant+ and BLE
 There is a wealth of data available from our training devices, power meters, heart rate monitors, fitness trainers, etc.
@@ -52,6 +57,8 @@ There is a wealth of data available from our training devices, power meters, hea
 These provide device specific data via *Ant+* and *BLE* using various standards. Typically *Ant+* devices broadcast data
 and it is easy to capture the data without interference with other programs that are also using them. *BLE* devices are
 more limited in the number of connections they support and will usually require pairing to work correctly.
+
+
 
 
 
