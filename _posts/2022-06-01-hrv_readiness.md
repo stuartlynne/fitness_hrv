@@ -7,10 +7,18 @@ author: Stuart Lynne
 
 [*AIEndurance*](https://aiendurance.com/) has defined and promoted the concept of *Readiness* and *Durability* based on *DFA A1*.
 
-HRV *Readiness* is calculated during the first thirty minutes of a workout (during the warm up period) and compares
-your data against a baseline of data from previous workouts. 
+*DFA A1* is Detrended Fluctuation Analysis, a heart rate variability index representing the degree of fractal correlation properties of the cardiac
+beat sequence.
 
-From *AIEndurance*:
+*HRV Pa* is defined as the power necessary to operate at a fixed *a1*.
+
+*HRV Readiness* is calculated during the first thirty minutes of a workout (during the warm up period) and compares
+your data against a baseline of data from previous workouts using *Pa* for that period. 
+
+*HRV Durability* is a comparison or *Pa* for the first and second half of a workout and quantifies durability (effectively endurance).
+
+From *AIEndurance* on HRV Readiness:
+
 ```
 If you put out less power/pace for the same a1 on a given day, you are not performing 
 well compared to your current baseline.
@@ -20,8 +28,7 @@ this is an indication that you're performing well and you might be particularly 
 to train or race.
 ```
 
-HRV *Durability* is a comparison between the first and second half of a workout and quantifies durability (effectively endurance).
-From *AIEndurance*:
+From *AIEndurance* on HRV Durability:
 ```
 If you put out significantly less power/pace for the same a1 during the second half of 
 your workout compared to the first half, this indicates a lack of durability for a given 
@@ -30,6 +37,7 @@ workout type and/or length.
 Conversely, if your pace/power for a given a1 is constant throughout a workout, this 
 indicates durability of the athlete.
 ```
+
 
 ## Alternatives
 
