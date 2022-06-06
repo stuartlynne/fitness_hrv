@@ -1,6 +1,6 @@
 # Fitness HRV
 
-The *Fitness HRV* family of apps are intended to provide a framework for logging and analysis of training data in real-time.
+The *Fitness HRV* family of apps are provide a framework for logging and analysis of training data in real-time.
 
 Currently there are two applications available in *Alpha* release:
 
