@@ -77,3 +77,10 @@ If there are any issues try running Zwift first, and Fitness\_Dashboard after
 Zwift has set up its devices.
 
 
+## Trouble Shooting
+
+- Antenna for builtin
+- Scanning - nothing
+- Scanning, connecting forever
+- Scanning, Connected, PPI receiving
+
