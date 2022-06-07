@@ -62,7 +62,7 @@ more limited in the number of connections they support and will usually require 
 ## Posts
 <ul>
   {% for post in site.posts %}
-    <li> <a href="{{ post.url }}">{{ post.title }}</a> </li>
+    <li> <a href="{{ post.url }}">{{ post.date }} {{ post.title }}</a> </li>
   {% endfor %}
 </ul>
 
