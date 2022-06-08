@@ -6,7 +6,8 @@ author: Stuart Lynne
 ## Overview
 
 ## Blogs
-| | |
+
+|  |   |
 | -- | -- |
 | Rogers | [Muscle Oxygen Training](http://www.muscleoxygentraining.com/p/index.html) |
 | Wharton | [Online Bike Coach](https://www.onlinebikecoach.com/2022/)|
@@ -25,7 +26,7 @@ author: Stuart Lynne
 | | |
 | -- | -- |
 | DFA A1 | [Tarvainen](/references/Detrending_method_tarvainen_et_al_ieee_2002.pdf)|
-| Robust Artifact | [Lipponen](./references/Lipponen_new_kubios_method_2019.pdf)|
+| Robust Artifact | [Lipponen](/references/Lipponen_new_kubios_method_2019.pdf)|
 
 
 
