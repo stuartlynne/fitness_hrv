@@ -11,6 +11,9 @@ Currently *Fitness* applications are only available for *Windows 10 and 11*.
 
 *MacOS* availibilty is pending.
 
+[Downloads](/DOWNLOADS.md)
+
+
 ## ![Sample ECG](./icons/graph2.svg) Fitness Dashboard 
 
 *Fitness\_Dashboard* captures *Ant+* and *BLE* dat from power meters, heart rate monitors, fitness trainers and various other devices. 
@@ -31,8 +34,6 @@ Currently supported:
 Example:
 ![Sample Dashboard](./images/dashboard1.png)
 
-### Download
-[Fitness\_Dashboard v0.13](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.13-alpha/Fitness_Dashboard_0.13_setup.exe)
 
 ## ![Sample ECG](./icons/ecg-lines.svg) Fitness ECG
 
@@ -49,9 +50,6 @@ Example:
 ![Sample ECG](./images/ecg1.png)
 ![Live](./images/test.gif)
 
-### Download
-[Fitness\_ECG v0.13](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.13-alpha/Fitness_ECG_0.13_setup.exe)
-
 ## Ant+ and BLE
 There is a wealth of data available from our training devices, power meters, heart rate monitors, fitness trainers, etc.
 
@@ -59,11 +57,6 @@ These provide device specific data via *Ant+* and *BLE* using various standards.
 and it is easy to capture the data without interference with other programs that are also using them. *BLE* devices are
 more limited in the number of connections they support and will usually require pairing to work correctly.
 
-## Other Documentation
-
-Work in progress:
-
-- [HRV Readiness Implementation](./docs/README-Readiness.md)
 
 
 ## Posts

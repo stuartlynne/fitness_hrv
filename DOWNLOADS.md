@@ -1,9 +1,12 @@
-# Fitness HRV Downloads
+# Downloads fitness\_hrv
 
-## Download Fitness Dashboard
-[Fitness\_Dashboard v0.13](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.13-alpha/Fitness_Dashboard_0.13_setup.exe)
+[Release Notes](/README-release-notes.md)
 
-## Download Fitness ECG
-[Fitness\_ECG v0.13](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.13-alpha/Fitness_ECG_0.13_setup.exe)
+## Release v0.14-alpha
+- [Fitness\_Dashboard\_0.14\_setup.exe](https://github.com/stuartlynne/fitness\_hrv/releases/download//v0.14-alpha/Fitness\_Dashboard\_0.14\_setup.exe)
+- [Fitness\_ECG\_0.14\_setup.exe](https://github.com/stuartlynne/fitness\_hrv/releases/download//v0.14-alpha/Fitness\_ECG\_0.14\_setup.exe)
 
+## Release v0.13-alpha
+- [Fitness\_Dashboard\_0.13\_setup.exe](https://github.com/stuartlynne/fitness\_hrv/releases/download//v0.13-alpha/Fitness\_Dashboard\_0.13\_setup.exe)
+- [Fitness\_ECG\_0.13\_setup.exe](https://github.com/stuartlynne/fitness\_hrv/releases/download//v0.13-alpha/Fitness\_ECG\_0.13\_setup.exe)
 
