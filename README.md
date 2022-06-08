@@ -11,7 +11,9 @@ Currently *Fitness* applications are only available for *Windows 10 and 11*.
 
 *MacOS* availibilty is pending.
 
-## ![Sample ECG](./icons/graph2.svg) Fitness Dashboard 
+## Example
+![Sample ECG](./icons/graph2.svg) Fitness Dashboard 
+![Live](./images/test.gif)
 
 *Fitness\_Dashboard* captures *Ant+* and *BLE* dat from power meters, heart rate monitors, fitness trainers and various other devices. 
 
