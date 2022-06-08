@@ -1,6 +1,6 @@
 # Fitness HRV
 
-The *Fitness HRV* family of apps are provide a framework for logging and analysis of training data in real-time.
+The *Fitness HRV* family of apps are intended to provide a framework for logging and analysis of training data in real-time.
 
 Currently there are two applications available in *Alpha* release:
 
@@ -11,9 +11,7 @@ Currently *Fitness* applications are only available for *Windows 10 and 11*.
 
 *MacOS* availibilty is pending.
 
-## Example
-![Sample ECG](./icons/graph2.svg) Fitness Dashboard 
-![Live](./images/test.gif)
+## ![Sample ECG](./icons/graph2.svg) Fitness Dashboard 
 
 *Fitness\_Dashboard* captures *Ant+* and *BLE* dat from power meters, heart rate monitors, fitness trainers and various other devices. 
 
@@ -49,6 +47,7 @@ The application supports:
 
 Example:
 ![Sample ECG](./images/ecg1.png)
+![Live](./images/test.gif)
 
 ### Download
 [Fitness\_ECG v0.13](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.13-alpha/Fitness_ECG_0.13_setup.exe)
@@ -60,11 +59,17 @@ These provide device specific data via *Ant+* and *BLE* using various standards.
 and it is easy to capture the data without interference with other programs that are also using them. *BLE* devices are
 more limited in the number of connections they support and will usually require pairing to work correctly.
 
+## Other Documentation
+
+Work in progress:
+
+- [HRV Readiness Implementation](./docs/README-Readiness.md)
+
 
 ## Posts
 <ul>
   {% for post in site.posts %}
-    <li> <a href="{{ post.url }}">{{ post.date }} {{ post.title }}</a> </li>
+    <li> <a href="{{ post.url }}">{{ post.title }}</a> </li>
   {% endfor %}
 </ul>
 
