@@ -10,7 +10,7 @@ RELEASES=$(gh release list -R git@github.com:stuartlynne/fitness_hrv.git | sed -
     /bin/echo "{ "
 
     for R in $RELEASES; do
-        ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e 's/asset:\t//p')
+        ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e '/latest-.*json/d' -e 's/asset:\t//p')
         for A in $ASSETS; do
             echo "\"${A}\" : \"${GITHUB_REPO}/${R}/${A}\", "
         done
