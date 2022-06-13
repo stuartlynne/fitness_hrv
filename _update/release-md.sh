@@ -26,10 +26,11 @@ for R in $RELEASES; do
     echo "## Release ${R}"
     ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e 's/asset:\t//p')
     for A in $ASSETS; do
-        echo "- [$A](${GITHUB_REPO}/${R}/${A})"
+        A_=$(echo $A | sed -e 's/_/\\_/g') 
+        echo "- [$A_](${GITHUB_REPO}${R}/${A})"
     done
     echo
 done
-) | sed -e 's/_/\\_/g'
+) 
 
 
