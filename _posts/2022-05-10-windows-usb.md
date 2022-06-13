@@ -40,7 +40,7 @@ on that, then select the *Driver Tab* and then *Driver Details*.
 
 | | |
 | --- | --- |
-|![Device manager](/img/device-manager-ant-usbstick2.png)||
+|![Device manager](/images/device-manager-ant-usbstick2.png)||
 
 
 ## Changing Ant+ Drivers using Zadig
@@ -58,7 +58,7 @@ the *lib-win32* driver and click on *Install Driver*.
 
 | | |
 | --- | --- |
-|![Zadig](/img/zadig-libusb0.png)||
+|![Zadig](/images/zadig-libusb0.png)||
 
 
 
