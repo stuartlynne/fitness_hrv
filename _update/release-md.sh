@@ -24,7 +24,7 @@ echo "[Release Notes](/README-release-notes.md)"
 echo
 for R in $RELEASES; do
     echo "## Release ${R}"
-    ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e 's/asset:\t//p')
+    ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e '/latest-.*json/d' -e 's/asset:\t//p')
     for A in $ASSETS; do
         A_=$(echo $A | sed -e 's/_/\\_/g') 
         echo "- [$A_](${GITHUB_REPO}${R}/${A})"

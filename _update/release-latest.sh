@@ -19,7 +19,7 @@ RELEASES=$(gh release list -R git@github.com:stuartlynne/fitness_hrv.git | sed -
 echo "<p><strong>Downloads</strong></p>"
 
 for R in $RELEASES; do
-    ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e 's/asset:\t//p')
+    ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e '/latest-.*json/d' -e 's/asset:\t//p')
     echo "      <ul>"
     for A in $ASSETS; do
         echo "        <li><a href=\"${GITHUB_REPO}/${R}/${A}\"><strong> ${A} </strong></a> </li>"
