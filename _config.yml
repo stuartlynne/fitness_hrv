@@ -1,5 +1,10 @@
+#
+# C.f. https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+#
 theme: jekyll-theme-minimal
 title: Fitness HRV
 description: Release Site for Fitness HRV Applications
 logo: icons/graph2.svg
 logo2: icons/ecg-lines.svg
+#
+#exclude: 
