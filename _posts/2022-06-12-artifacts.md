@@ -18,20 +18,17 @@ See: | Robust Artifact | [Lipponen](/references/Lipponen_new_kubios_method_2019.
 
 For detection they propose:
 
-```
-a robust automatic method for artefact detection and correction from HRV time series is
-proposed. Detection of artefacts is based on two variable thresholds. 
-The first threshold is estimated from distribution of successive RR-interval differences and 
-the second one is estimated from distribution of differences between individual RR-intervals and median RR interval. 
-```
+> a robust automatic method for artefact detection and correction from HRV time series is
+> proposed. Detection of artefacts is based on two variable thresholds. 
+> The first threshold is estimated from distribution of successive RR-interval differences and 
+> the second one is estimated from distribution of differences between individual RR-intervals and median RR interval. 
 
 The paper also provides guidance on correction of erroneous heartbeats:
-```
-... the decision algorithm for detecting real artefacts and removing extra detections. 
-Firstly, RR interval is tested against the ectopic beat criterion and secondly against the long or short criterion 
-if beat is classified long or short then missed and extra beat criterions are tested. 
-If criterions are not fulfilled beat is classified as a normal rhythm.
-```
+
+> ... the decision algorithm for detecting real artefacts and removing extra detections. 
+> Firstly, RR interval is tested against the ectopic beat criterion and secondly against the long or short criterion 
+> if beat is classified long or short then missed and extra beat criterions are tested. 
+> If criterions are not fulfilled beat is classified as a normal rhythm.
 
 - *Extra* beats are corrected by removing the extra Rwave detection corresponding to the detected short
 RR interval and RR interval series is then recalculated.
