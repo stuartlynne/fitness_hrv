@@ -1,5 +1,14 @@
 # Fitness HVR Release Notes
 
+## v0.17 alpha
+### fitness\_dashboard
+- Ant recording - capture Ant data to file
+- athlete - add name and ftp to fitness.cfg
+- check for update 
+- implemented AIEndurance Readiness and Durability
+- implemented TSS, IF and NP
+- FE-C - correctly ignore incline when set to invalid value
+
 ## v0.16 alpha
 ### fitness\_dashboard
 - add optional update check
