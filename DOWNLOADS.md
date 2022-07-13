@@ -2,6 +2,9 @@
 
 [Release Notes](/README-release-notes.md)
 
+## Release v0.17-alpha
+- [Fitness\_Dashboard\_0.17\_setup.exe](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.17-alpha/Fitness_Dashboard_0.17_setup.exe)
+
 ## Release v0.16-alpha
 - [Fitness\_Dashboard\_0.16\_setup.exe](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.16-alpha/Fitness_Dashboard_0.16_setup.exe)
 - [Fitness\_ECG\_0.16\_setup.exe](https://github.com/stuartlynne/fitness_hrv/releases/download/v0.16-alpha/Fitness_ECG_0.16_setup.exe)

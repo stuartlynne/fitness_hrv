@@ -18,6 +18,7 @@ RELEASES=$(gh release list -R git@github.com:stuartlynne/fitness_hrv.git | sed -
 #echo "<p><a href="dowloads.html"><strong>Downloads</strong></a></p>"
 echo "<p><strong>Downloads</strong></p>"
 
+#count=0
 for R in $RELEASES; do
     ASSETS=$(gh release view -R git@github.com:stuartlynne/fitness_hrv $R | sed -n -e '/latest-.*json/d' -e 's/asset:\t//p')
     echo "      <ul>"
@@ -25,7 +26,9 @@ for R in $RELEASES; do
         echo "        <li><a href=\"${GITHUB_REPO}/${R}/${A}\"><strong> ${A} </strong></a> </li>"
     done
     echo "      </ul>"
-    break
+    count=$((count + 1))
+    [ $count -ge 2 ] && break
+    #break
 done
 
 
