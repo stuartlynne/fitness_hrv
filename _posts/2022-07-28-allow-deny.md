@@ -62,60 +62,76 @@ as shown in the *ant.log* file.
 
 Allow all devices, this is the default behaviour.
 
-> [ant\_allow]
-> default\_policy = allow
-> deny = None
+```
+[ant_allow]
+default_policy = allow
+deny = None
+```
 
-> ALLOWED[HRM-28525] HRM-28525 not in: [ant\_allow\_policy] deny: None
-> ALLOWED[HRM-42396] HRM-42396 not in: [ant\_allow\_policy] deny: None
-> ALLOWED[HRM-25953] HRM-25953 not in: [ant\_allow\_policy] deny: None
-> ALLOWED[HRM-18877] HRM-18877 not in: [ant\_allow\_policy] deny: None
+```
+ALLOWED[HRM-28525] HRM-28525 not in: [ant_allow_policy] deny: None
+ALLOWED[HRM-42396] HRM-42396 not in: [ant_allow_policy] deny: None
+ALLOWED[HRM-25953] HRM-25953 not in: [ant_allow_policy] deny: None
+ALLOWED[HRM-18877] HRM-18877 not in: [ant_allow_policy] deny: None
+```
 
 ### Test 2 - Policy Allow - Deny two
 
 Allow all devices except for two specific devices, one as ID match, one as profile ID match.
 
-> [ant\_allow]
-> default\_policy = allow
-> deny = 18877, HRM-25953
+```
+[ant_allow]
+default_policy = allow
+deny = 18877, HRM-25953
+```
 
->ALLOWED[HRM-28525] HRM-28525 not in: [ant\_allow\_policy] deny: 18877, HRM-25953
->
->ALLOWED[HRM-42396] HRM-42396 not in: [ant\_allow\_policy] deny: 18877, HRM-25953
->
->DENIED[HRM-25953] HRM-25953 is in: [ant\_allow\_policy] deny: 18877, HRM-25953
->
->DENIED[HRM-18877] device number 18877 is in: [ant\_allow\_policy] deny: 18877, HRM-25953
->
+```
+ALLOWED[HRM-28525] HRM-28525 not in: [ant_allow_policy] deny: 18877, HRM-25953
+
+ALLOWED[HRM-42396] HRM-42396 not in: [ant_allow_policy] deny: 18877, HRM-25953
+
+DENIED[HRM-25953] HRM-25953 is in: [ant_allow_policy] deny: 18877, HRM-25953
+
+DENIED[HRM-18877] device number 18877 is in: [ant_allow_policy] deny: 18877, HRM-25953
+```
+
 
 ### Test 3 - Policy Deny  
 
 Deny all devices. This would not allow any Ant+ devices.
 
->[ant\_allow]
->default\_policy = deny
->allow = None
+```
+[ant_allow]
+default_policy = deny
+allow = None
+```
 
-> DENIED[HRM-18877] HRM-18877 not in: [ant\_allow\_policy] allow: None
-> DENIED[HRM-28525] HRM-28525 not in: [ant\_allow\_policy] allow: None
-> DENIED[HRM-42396] HRM-42396 not in: [ant\_allow\_policy] allow: None
-> DENIED[HRM-25953] HRM-25953 not in: [ant\_allow\_policy] allow: None
+```
+DENIED[HRM-18877] HRM-18877 not in: [ant_allow_policy] allow: None
+DENIED[HRM-28525] HRM-28525 not in: [ant_allow_policy] allow: None
+DENIED[HRM-42396] HRM-42396 not in: [ant_allow_policy] allow: None
+DENIED[HRM-25953] HRM-25953 not in: [ant_allow_policy] allow: None
+```
 
 ### Test 4 - Policy Deny - Allow two
 
 Deny all devices except two, one matched by ID, one matched by profile and ID.
 
->[ant\_allow]
->default\_policy = deny
->allow = 18877, HRM-25953
+```
+[ant_allow]
+default_policy = deny
+allow = 18877, HRM-25953
+```
 
-> DENIED[HRM-42396] HRM-42396 not in: [ant\_allow\_policy] allow: 18877, HRM-25953
->
-> ALLOWED[HRM-25953] HRM-25953 is in: [ant\_allow\_policy] allow: 18877, HRM-25953
->
-> ALLOWED[HRM-18877] device number 18877 is in: [ant\_allow\_policy] allow: 18877, HRM-25953
->
-> DENIED[HRM-28525] HRM-28525 not in: [ant\_allow\_policy] allow: 18877, HRM-25953
->
+```
+DENIED[HRM-42396] HRM-42396 not in: [ant_allow_policy] allow: 18877, HRM-25953
+
+ALLOWED[HRM-25953] HRM-25953 is in: [ant_allow_policy] allow: 18877, HRM-25953
+
+ALLOWED[HRM-18877] device number 18877 is in: [ant_allow_policy] allow: 18877, HRM-25953
+
+DENIED[HRM-28525] HRM-28525 not in: [ant_allow_policy] allow: 18877, HRM-25953
+```
+
 
 
