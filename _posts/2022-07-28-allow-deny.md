@@ -87,11 +87,8 @@ deny = 18877, HRM-25953
 
 ```
 ALLOWED[HRM-28525] HRM-28525 not in: [ant_allow_policy] deny: 18877, HRM-25953
-
 ALLOWED[HRM-42396] HRM-42396 not in: [ant_allow_policy] deny: 18877, HRM-25953
-
 DENIED[HRM-25953] HRM-25953 is in: [ant_allow_policy] deny: 18877, HRM-25953
-
 DENIED[HRM-18877] device number 18877 is in: [ant_allow_policy] deny: 18877, HRM-25953
 ```
 
@@ -125,11 +122,8 @@ allow = 18877, HRM-25953
 
 ```
 DENIED[HRM-42396] HRM-42396 not in: [ant_allow_policy] allow: 18877, HRM-25953
-
 ALLOWED[HRM-25953] HRM-25953 is in: [ant_allow_policy] allow: 18877, HRM-25953
-
 ALLOWED[HRM-18877] device number 18877 is in: [ant_allow_policy] allow: 18877, HRM-25953
-
 DENIED[HRM-28525] HRM-28525 not in: [ant_allow_policy] allow: 18877, HRM-25953
 ```
 
