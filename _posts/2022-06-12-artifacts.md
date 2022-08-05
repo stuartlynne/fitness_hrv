@@ -22,6 +22,9 @@ For detection they propose:
 > The first threshold is estimated from distribution of successive RR-interval differences and 
 > the second one is estimated from distribution of differences between individual RR-intervals and median RR interval. 
 
+## Correction of artifacts
+
+This is a summary, please refer to the Lipponen paper, section *2.2 Correction of erroneous heartbeats*.
 The paper also provides guidance on correction of erroneous heartbeats:
 
 > ... the decision algorithm for detecting real artefacts and removing extra detections. 
@@ -79,27 +82,6 @@ This is a summary, please refer to the Lipponen paper, section *2.1 Decision alg
 N.B. *Not Checked* is specified where the algorithm had insufficient information to work on, 
 typically the first and last elements of the RR data collected
 
-## Correction of artifacts
-
-This is a summary, please refer to the Lipponen paper, section *2.2 Correction of erroneous heartbeats*.
-
-```
-*Extra beats* are corrected by removing the extra R-
-wave detection corresponding to the detected short
-RR interval and RR interval series is then recalculated.
-
-*Missed beats* are corrected by adding new R-wave
-occurrence time so that it divides the detected long
-RR interval into two equal halves and RR interval series
-is then recalculated.
-
-*Long or short beats*, are corrected by interpolating
-new values to the RR time series.
-
-*Ectopic beats* are corrected by replacing corrupted
-RR times by interpolated RR values.
-
-```
 
 ## Source of Errors
 
