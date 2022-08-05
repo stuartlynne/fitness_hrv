@@ -22,8 +22,8 @@ Errors in the *RR* data have three sources:
 
 This paper provides an overview of the main types of errors in the *RR* data.
 
-See: | Heart Rate Variability during Exercise: A Comparison of Artefact Correction Methods | [David Giles and Nick Draper]
-(https://www.researchgate.net/publication/313419861_Heart_Rate_Variability_A_Comparison_of_Artefact_Correction_Methods)|
+See: [ Heart Rate Variability during Exercise: A Comparison of Artefact Correction Methods | [David Giles and Nick Draper]
+(https://www.researchgate.net/publication/313419861_Heart_Rate_Variability_A_Comparison_of_Artefact_Correction_Methods)|(sic)
 
 ## Presentation
 
