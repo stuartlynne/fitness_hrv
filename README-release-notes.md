@@ -1,5 +1,17 @@
 # Fitness HVR Release Notes
 
+## v0.20 alpha
+
+### fitness\_dashboard
+- DFA Window corrected to use end point time and use points [t-120 through t], this should match Kubios
+- Ant Power checks for spikes in instantaneous power
+- Ant Power ensures that instantaneous power is valid (some power meters continue to send ipower when coasting)
+- Ant Heart Rate fix for event beat count rollover
+
+### fitness\_ecg
+- ECG conversion of RR values from 1024 to 1000
+
+
 ## v0.17 alpha
 
 N.B. Be sure to update fitness.cfg with your name and ftp.
