@@ -1,5 +1,13 @@
 # Fitness HVR Release Notes
 
+## v0.21 alpha
+
+### fitness\_dashboard
+- support Ant+ CORE Temp Device Profile, tested against Core Body Temperature Sensor
+- add Ant+ and BLE log tabs
+- add Ant+ device configuration tab panel, enable/disable devices, stats and plots
+- save active configuration in Fitness/active.json for device configuration options
+
 ## v0.20 alpha
 
 ### fitness\_dashboard
