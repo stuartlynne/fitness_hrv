@@ -1,5 +1,10 @@
 # Fitness HVR Release Notes
 
+## v0.22 alpha
+- initial support for BLE, currently Moxy, Polar H10, Garmin Dual
+- initial support to capture speed, distance, etc from Sauce for Zwift
+
+
 ## v0.21 alpha
 
 ### fitness\_dashboard
