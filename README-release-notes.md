@@ -1,9 +1,20 @@
 # Fitness HVR Release Notes
 
-## v0.22 alpha
-- initial support for BLE, currently Moxy, Polar H10, Garmin Dual
-- initial support to capture speed, distance, etc from Sauce for Zwift
+## v0.23 roadmap
+- control panel to start/stop, laps, FIT file 
+- reading FIT file for analysis
+- add ECG graph 
+- power sensor comparison panel
+- pan and zoom for graph panel
+- save graphs to PDF
 
+
+## v0.22 alpha
+- initial support for BLE, currently Moxy, Polar H10, Garmin Dual, Movesense
+- initial support to capture speed, distance, etc from Sauce4Zwift
+- initial support to generate FIT files
+- support for Alpha1, multiple heart rate and power sensors, ecg data, in FIT files
+- python command line tool to extract FIT data [fitextract sample scripts](https://github.com/stuartlynne/fitextract)
 
 ## v0.21 alpha
 
@@ -11,7 +22,6 @@
 - support Ant+ CORE Temp Device Profile, tested against Core Body Temperature Sensor
 - add Ant+ and BLE log tabs
 - add Ant+ device configuration tab panel, enable/disable devices, stats and plots
-- save active configuration in Fitness/active.json for device configuration options
 
 ## v0.20 alpha
 
