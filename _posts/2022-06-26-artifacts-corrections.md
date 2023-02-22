@@ -10,7 +10,9 @@ is used it is processed using the algorithm described in the 2019 paper from Lip
 "A robust algorithm for heart rate variability time series artefact correction
 using novel beat classification" addresses this problem making specific recommendations on finding and dealing with artifacts.
 
-See: | Robust Artifact | [Lipponen](/references/Lipponen_new_kubios_method_2019.pdf)|
+See: A robust algorithm for heart rate variability
+time series artefact correction using novel beat
+classification [Lipponen](/references/Lipponen_new_kubios_method_2019.pdf)
 
 
 ## Artifact types
@@ -22,8 +24,9 @@ Errors in the *RR* data have three sources:
 
 This paper provides an overview of the main types of errors in the *RR* data.
 
-See: [ Heart Rate Variability during Exercise: A Comparison of Artefact Correction Methods | [David Giles and Nick Draper]
-(https://www.researchgate.net/publication/313419861_Heart_Rate_Variability_A_Comparison_of_Artefact_Correction_Methods)|(sic)
+See: Heart Rate Variability during Exercise: A Comparison of Artefact Correction Methods 
+[Giles and Draper](https://www.researchgate.net/publication/313419861_Heart_Rate_Variability_A_Comparison_of_Artefact_Correction_Methods)
+
 
 ## Presentation
 
