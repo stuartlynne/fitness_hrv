@@ -1,6 +1,8 @@
 # Fitness HVR Release Notes
 
 ## v0.23 roadmap
+
+### fitness\_dashboard
 - control panel to start/stop, laps, FIT file 
 - reading FIT file for analysis
 - add ECG graph 
@@ -10,6 +12,8 @@
 
 
 ## v0.22 alpha
+
+### fitness\_dashboard
 - initial support for BLE, currently Moxy, Polar H10, Garmin Dual, Movesense
 - initial support to capture speed, distance, etc from Sauce4Zwift
 - initial support to generate FIT files
