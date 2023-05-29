@@ -13,6 +13,16 @@ Types:
 - Production
 
 
+## Procedure
+
+1. In github, fitness_hrv, create new release.
+2. Add Fitness\_Dashboard\_N.NN\_setup.exe to binaries and publish
+3. In fitness\_hrv/update, type make
+4. In github, edit release and add latest-dashboard.json to previous release(s), publish
+5. cp downloads.html latest.html ../_includes
+6. cp DOWNLOADS.md ../
+
+
 ## Typical latest.json
 ```
 {

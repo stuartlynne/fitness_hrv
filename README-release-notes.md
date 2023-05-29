@@ -1,6 +1,6 @@
-# Fitness HVR Release Notes
+# Fitness Dashboard Release Notes
 
-## v0.23 roadmap
+## v0.26 roadmap
 
 ### fitness\_dashboard
 - control panel to start/stop, laps, FIT file 
@@ -9,6 +9,18 @@
 - power sensor comparison panel
 - pan and zoom for graph panel
 - save graphs to PDF
+- MO2 analysis panel
+
+## v0.25
+- support for Movesense (requires custom firmware)
+- make ECG and ACC separate virtual services for Polar H10 and Movesense
+- readiness history now derived from previous 30 days of fit files
+- accelerometer data saved to activity csv file
+- faster BLE scanner to find devices
+- improved BLE support
+- improved BLE and ANT control panels
+
+Custom firmware for the Movesense is available [here](https://github.com/JonasPrimbs/movesense-ble-ecg-firmware)
 
 
 ## v0.22 alpha
