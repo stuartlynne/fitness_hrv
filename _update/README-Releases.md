@@ -15,7 +15,7 @@ Types:
 
 ## Procedure
 
-1. In github, fitness_hrv, create new release.
+1. In github, fitness\_hrv, create new release.
 2. Add Fitness\_Dashboard\_N.NN\_setup.exe to binaries and publish
 3. In fitness\_hrv/update, type make
 4. In github, edit release and add latest-dashboard.json to previous release(s), publish
@@ -26,7 +26,7 @@ Types:
 ## Typical latest.json
 ```
 {
-    "Fitness_Dashboard_0.15_setup.exe": "https://github.com/stuartlynne/fitness_hrv/releases/download//v0.15-alpha/Fitness_Dashboard_0.15_setup.exe",
+    "Fitness_\Dashboard_0.15_setup.exe": "https://github.com/stuartlynne/fitness_hrv/releases/download//v0.15-alpha/Fitness_Dashboard_0.15_setup.exe",
     "Fitness_ECG_0.15_setup.exe": "https://github.com/stuartlynne/fitness_hrv/releases/download//v0.15-alpha/Fitness_ECG_0.15_setup.exe",
     "date": "Mon 13 Jun 2022 12:23:42 PM PDT"
 } 
