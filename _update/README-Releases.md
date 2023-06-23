@@ -21,6 +21,7 @@ Types:
 4. In github, edit release and add latest-dashboard.json to previous release(s), publish
 5. cp downloads.html latest.html ../_includes
 6. cp DOWNLOADS.md ../
+7. In github, fitness\_hrv, add latest-dashboard.json to release.
 
 
 ## Typical latest.json
