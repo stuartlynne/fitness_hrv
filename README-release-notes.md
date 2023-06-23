@@ -1,6 +1,6 @@
 # Fitness Dashboard Release Notes
 
-## v0.29 roadmap
+## v0.30 roadmap
 
 ### fitness\_dashboard
 - control panel to start/stop, laps, FIT file 
@@ -10,6 +10,9 @@
 - pan and zoom for graph panel
 - save graphs to PDF
 - MO2 analysis panel
+
+## v0.29 
+- correct missing plot issue
 
 ## v0.28 
 - fix shutil missing error which prevented use in Windows 11 Home
