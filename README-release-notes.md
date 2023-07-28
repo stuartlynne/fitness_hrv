@@ -1,6 +1,6 @@
 # Fitness Dashboard Release Notes
 
-## v0.30 roadmap
+## v0.31 roadmap
 
 ### fitness\_dashboard
 - control panel to start/stop, laps, FIT file 
@@ -10,6 +10,15 @@
 - pan and zoom for graph panel
 - save graphs to PDF
 - MO2 analysis panel
+
+## v0.30
+- MeanDiff plot added for HRM, PWR and MO2 
+- Polar OH1 support added, with PPG
+- graph cleanup
+- tooltips fixed for Windows
+- snap data cursor fixed for Windows
+- more BLE cleanup
+- fixed Windows tool tips and data cursor
 
 ## v0.29 
 - correct missing plot issue
