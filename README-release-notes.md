@@ -1,6 +1,6 @@
 # Fitness Dashboard Release Notes
 
-## v0.31 roadmap
+## v0.32 roadmap
 
 ### fitness\_dashboard
 - control panel to start/stop, laps, FIT file 
@@ -10,6 +10,10 @@
 - pan and zoom for graph panel
 - save graphs to PDF
 - MO2 analysis panel
+
+## v0.31
+- set the y-axis dynamically for some statistics, e.g. Moxy, Heart rate and power
+
 
 ## v0.30
 - MeanDiff plot added for HRM, PWR and MO2 

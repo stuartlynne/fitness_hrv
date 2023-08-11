@@ -1,17 +1,16 @@
 # Fitness HRV Privacy Statement
 
-Fitness HRV does NOT collect and process information for storage or interpretation online.  
+Fitness HRV does not operate an online service. 
+No user data is ever uploaded to Fitness HRV.
 
 Data collected is only stored on the local storage of the personal computer used to run the application.
 
-Additional personal data, such as name, address, and email address, are stored separately within the scope of the setup of a user account if uploading to a
-third party service. 
+- personal data such as height, weight, FTP
+- activity data such as power, heart rate, etc
+- access data for online services used to upload FIT files 
 
-No vital body or health values will be stored by our service without your permission. 
+Training data is collected and stored in FIT files on your personal computer.
 
-We reserve the right to analyze anonymized vital body and health values for internal purposes only. We take care that anonymity is maintained pursuant to data protection.
+The FIT files may optionally be uploaded to online services (such as Strava) to your personal account.
 
-All personal data is treated as private and confidential. It will not be forwarded to third parties without your consent. 
-
-Personal and empirical personal data is used by Fitness HRV to help guide individuals to greater perception and understanding of the values presented
 
