@@ -20,5 +20,5 @@ RELEASES=$(gh release list -R git@github.com:stuartlynne/fitness_hrv.git | sed -
     echo "\"date\" : \"$(date)\" "
 
     /bin/echo  " }"
-) | python -m json.tool
+) | python3 -m json.tool
 

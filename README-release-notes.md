@@ -1,8 +1,6 @@
 # Fitness Dashboard Release Notes
 
-## v0.32 roadmap
-
-### fitness\_dashboard
+## v0.33 roadmap
 - control panel to start/stop, laps, FIT file 
 - reading FIT file for analysis
 - add ECG graph 
@@ -10,6 +8,18 @@
 - pan and zoom for graph panel
 - save graphs to PDF
 - MO2 analysis panel
+- VO2Master analysis panel
+- more event data from Zwift
+- ramp tests
+
+## v0.32 
+
+- More BLE sensors, VO2Master, Oxylink Pulse Oximeter, Trainers that support FTMS
+- Lap and event data from *Sauce for Zwift*
+- Rewritten graphics that are substantially faster
+- Mean Diff comparisons for two power meters or two heart rate monitors
+- Tool-tips for most fields
+- Implement data cursor to look at specific values
 
 ## v0.31
 - set the y-axis dynamically for some statistics, e.g. Moxy, Heart rate and power
