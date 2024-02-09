@@ -1,6 +1,6 @@
 # Fitness Dashboard Release Notes
 
-## v0.33 roadmap
+## v0.34 roadmap
 - control panel to start/stop, laps, FIT file 
 - reading FIT file for analysis
 - add ECG graph 
@@ -11,6 +11,13 @@
 - VO2Master analysis panel
 - more event data from Zwift
 - ramp tests
+
+## v0.33 
+- power sensor comparison panel
+- faster plotting
+- increase/decrease fields shown in stats panel
+- toggle plot visibility by clicking on legend
+- elevation and speed from Sauce for Zwift
 
 ## v0.32 
 
